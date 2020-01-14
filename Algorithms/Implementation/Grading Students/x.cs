@@ -10,6 +10,8 @@ class Result
 
     public static List<int> gradingStudents(List<int> grades)
     {
+        // for (int i=0; i<grades.count; i++)
+        //     int grade = grades[i];
         List<int> results = new List<int>();
         foreach(int grade in grades)
         {
